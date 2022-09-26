@@ -18,10 +18,12 @@ Route::get('/', function () {
     return view('home', ['numeroCasuale' => $randomNumber]);
 });
 
+// la route lega la view 'blog' (cioè 'blog.blade.php') all'url specificato nel get ('/blog').
 Route::get('/blog', function() {
     return view('blog');
 });
 
+// si può dare un nome alla route.
 Route::get('/careers', function() {
     return view('careers');
 })->name('pageCareers');

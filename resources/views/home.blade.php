@@ -8,8 +8,10 @@
 </head>
 <body>
 
+    <!-- html -->
     <nav>
         <ul class="d_flex jc_center">
+            <!-- inserire in href l'url diretto o il nome dato alla route -->
             <li class="m_40"><a href=" {{ url('/') }} ">Home</a></li>
             <li class="m_40"><a href=" {{ url('/blog') }} ">Blog</a></li>
             <li class="m_40"><a href=" {{ route('pageCareers') }} ">Careers</a></li>
@@ -19,6 +21,7 @@
 
     <h2 class="t_center c_green">Random number: {{$numeroCasuale}}</h2>
     
+    <!-- stile -->
     <style>
         html {
             margin: 0;
