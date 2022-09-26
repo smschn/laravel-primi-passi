@@ -14,8 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-
     $randomNumber = rand(1,100);
-
     return view('home', ['numeroCasuale' => $randomNumber]);
 });
+
+Route::get('/blog', function() {
+    return view('blog');
+});
+
+Route::get('/careers', function() {
+    return view('careers');
+})->name('pageCareers');
+
+Route::get('/about', function() {
+    return view('about');
+})->name('pageAbout');

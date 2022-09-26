@@ -8,7 +8,14 @@
 </head>
 <body>
 
-    <h1>Hello World</h1>
+    <nav>
+        <ul>
+            <li><a href=" {{ url('/') }} ">Home</a></li>
+            <li><a href=" {{ url('/blog') }} ">Blog</a></li>
+            <li><a href=" {{ route('pageCareers') }} ">Careers</a></li>
+            <li><a href=" {{ route('pageAbout') }} ">About</a></li>
+        </ul>
+    </nav>
 
     <h2 style='color:green'>Random number: {{$numeroCasuale}}</h2>
     
