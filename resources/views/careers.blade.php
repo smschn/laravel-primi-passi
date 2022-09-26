@@ -7,7 +7,8 @@
     <title>Careers</title>
 </head>
 <body>
-    <h1>Posizioni aperte</h1>
+    
+<h1>Posizioni aperte</h1>
     <ol>
         <li>Front-End Dev</li>
         <li>Back-End Dev</li>
@@ -15,5 +16,12 @@
     </ol>
     <br>
     <h3><a href=" {{ url('/') }} ">Torna alla Home</a></h3>
+
+    <style>
+        html {
+            text-align: center;
+        }
+    </style>
+    
 </body>
 </html>

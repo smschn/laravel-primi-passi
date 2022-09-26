@@ -7,9 +7,17 @@
     <title>Blog</title>
 </head>
 <body>
+
     <h1>Articolo casuale del Blog</h1>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur adipisci, hic fugit cupiditate sunt cumque? Labore mollitia quae ullam maiores?</p>
     <br>
     <h3><a href=" {{ url('/') }} ">Torna alla Home</a></h3>
+
+    <style>
+        html {
+            text-align: center;
+        }
+    </style>
+    
 </body>
 </html>

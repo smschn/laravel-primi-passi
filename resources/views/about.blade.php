@@ -7,8 +7,15 @@
     <title>About</title>
 </head>
 <body>
+
     <p>...primi passi con Laravel</p>
     <br>
     <h3><a href=" {{ url('/') }} ">Torna alla Home</a></h3>
+
+    <style>
+        html {
+            text-align: center;
+        }
+    </style>
 </body>
 </html>
