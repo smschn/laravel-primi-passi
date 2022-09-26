@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $randomNumber = rand(1,100);
+
+    return view('home', ['numeroCasuale' => $randomNumber]);
 });
